@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--<script src="..\LIB\jquery-3.4.1.js"> </script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="..\CSS\button.css" media="screen" />
+    <!-- <script src="..\JQuery\L1.js"></script> -->
+
+</head>
+
+<body>
+    <script>
+        $(window).on("load", function () {
+            alert("window loaded");
+        });
+        $(document).ready(function () {
+            $("a").click(function (event) {
+                alert("Thanks for visiting!");
+                $(this).hide("slow");
+                alert($(this).attr("title"));
+                event.preventDefault(); //Prevents default  navigation
+            });
+            $("#btn1").click(function (event) {
+                $("#a1").show("slow");
+                $("#a1").addClass("button");
+            });
+            $("#btn2").click(function (event) {
+                $("a").removeClass("button");
+            });
+
+            $("#a1").attr({
+                title: "all titles are the same too!",
+                href: "https://stackoverflow.com"
+            });
+        });
+    </script>
+    <h2>Jquery Learning</h2>
+
+    <a id="a1" href="http://jquery.com/">jQuery</a>
+
+    <input type="button" id="btn1" value="add class " />
+    <button id="btn2">remove class</button>
+    <iframe src="https://stackoverflow.com"></iframe>
+</body>
+
+</html>

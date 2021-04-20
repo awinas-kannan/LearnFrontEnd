@@ -1,0 +1,93 @@
+important links : 
+https://subinsb.com/jquery-to-javascript/
+
+
+--jQuery is a JavaScript Library.
+
+--jQuery greatly simplifies JavaScript programming
+
+--The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+{
+jQuery is a fast, small, and feature-rich JavaScript library.
+It makes things like HTML document traversal and manipulation, event handling, animation, 
+and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. 
+With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+}
+
+The jQuery library contains the following features:
+•HTML/DOM manipulation
+•CSS manipulation
+•HTML event methods
+•Effects and animations
+•AJAX
+•Utilities
+
+--The jQuery team knows all about cross-browser issues, and they have written this 
+  knowledge into the jQuery library. jQuery will run exactly the same in all major browsers.
+
+--How to include jQuery?
+    <head>
+        <script src="jquery-3.4.1.min.js"></script>
+    </head>
+
+
+--One big advantage of using the hosted jQuery from Google or Microsoft:
+
+Many users already have downloaded jQuery from Google or Microsoft when visiting another site. 
+As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. 
+Also, most CDN's will make sure that once a user requests a file from it, 
+it will be served from the server closest to them, which also leads to faster loading time.     
+
+----------------------------------------------------------------------------------------------------------------------------
+Syntax:
+    $(selector).action();  where $ is used to define jQuery
+
+The Document Ready Event:
+    $(document).ready(function(){
+    });
+
+-----------------------------------------------------------------------------------------------------------------------------
+jQuery Selectors:        
+
+document.getElementByTagName == $("div") {<div id="div1">}
+
+document.getElementById == $("#name")  { <input name="name" id="name" />}
+
+document.getElementsByClassName == $(".menu")  { <div class="menu" id ="div1">}
+
+$("[href]") : Attribute based selection
+
+Tag & Class : 
+    $("div.main")       Selects div element with class main
+Tag & id :
+    $("div#name")  
+
+https://www.w3schools.com/jquery/jquery_selectors.asp
+
+$("table tr") :: tr element in table element
+
+$(h1,h2,p) :: set of elements
+-------------------------------------------------------------------------------------------------------------------------------
+jQuery Events:
+
+        The following method attaches an event handler function to an HTML element.
+        
+        Mouse Events	Keyboard Events	     Form Events	Document/Window Events
+        click	        keypress	         submit	        load
+        dblclick	    keydown	             change	        resize
+        mouseenter     	keyup	             focus	        scroll
+        mouseleave	 	                     blur	        unload
+        hover
+
+The on() method attaches one or more event handlers for the selected elements.
+--------------------------------------------------------------------------------------------------------------------------------
+
+JQuery Effects: 
+    hide/show/fade/slide/animate/stop/TOGGLE
+
+--------------------------------------------------------------------------------------------------------------------------------
+Jquery Traversal:
+
+Reference::
+https://code.tutsplus.com/tutorials/from-jquery-to-javascript-a-reference--net-23703

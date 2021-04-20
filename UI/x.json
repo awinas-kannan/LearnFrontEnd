@@ -1,0 +1,15 @@
+{
+    "AbiCode" : "",
+    "Subject" : {
+        "SubjectId" :"",
+        "NdgCode":"", 
+        "OttoCifre":"",
+        "Filter":{
+            "AccountType":"",
+            "LinkType":"",
+            "RetrieveAccountService":"",
+            "Channel":""
+        }
+    }
+}
+

@@ -9,6 +9,7 @@ http.createServer(function (req, res) {
   res.write("The date and time are currently: " + dt.myDateTime());
   res.write("</br>");
   
+  
   //Get Url
   res.write(req.url);
   res.write("</br>");

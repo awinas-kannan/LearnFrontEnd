@@ -23,4 +23,6 @@ Run the compiled JavaScript file:
     node index.js
 
 
+Type Scripts basics:
+
 

@@ -1,3 +1,4 @@
 "use strict";
-let str = "String";
-console.log(str);
+let expStr = "Explicit";
+let impStr = "Implict";
+console.log(expStr, impStr);

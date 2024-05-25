@@ -122,3 +122,5 @@ function splice() {
     print += arr1 + br
     document.getElementById("p2").innerHTML = print;
 }
+
+console.log('test')

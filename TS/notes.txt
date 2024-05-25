@@ -1,0 +1,26 @@
+1 : Set Up a TypeScript Project
+Create a new directory for your project:
+
+
+mkdir my-typescript-project
+cd my-typescript-project
+Initialize a new Node.js project:
+    npm init -y
+    This creates a package.json file with default settings.
+
+Install TypeScript locally in your project (optional but recommended):
+    npm install --save-dev typescript
+
+Create a tsconfig.json file:
+    npx tsc --init
+    This command generates a tsconfig.json file with default TypeScript configurations.
+
+Compile the TypeScript file:
+    npx tsc index.ts
+    This will compile index.ts into index.js.
+
+Run the compiled JavaScript file:
+    node index.js
+
+
+

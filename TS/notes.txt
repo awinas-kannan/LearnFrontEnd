@@ -25,4 +25,4 @@ Run the compiled JavaScript file:
 
 Type Scripts basics:
 
-
+2 : Basic Types

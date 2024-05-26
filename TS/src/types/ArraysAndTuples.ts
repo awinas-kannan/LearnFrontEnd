@@ -1,6 +1,8 @@
 //An array is a type that can hold a collection of values of the same type.
 
 let list: number[] = [1, 2, 3, 4, 5];
+// let listZZ: Array<number> = [1, 2, 3];
+
 let names: string[] = ["Alice", "Bob", "Charlie"];
 list.push(11)
 list.push(19)

@@ -23,11 +23,32 @@ Run the compiled JavaScript file:
     node index.js
 
 
+Extesnions :
+ -> 
+ -> TypeScript Toolbox
+
+
+###################################################################################################################################################################################################
+
 Type Scripts basics:
 
 2 : Basic Types
 
+boolean for true/false values.
+number for all numeric values.
+string for textual data.
+array for collections of values.
+tuple for fixed collections of different types.
+enum for named constants.
+any for variables that can hold any type.
+unknown for safer handling of variables with uncertain types.
+void for functions that do not return a value.
+null and undefined for absence of values.
+never for values that never occur.
+object for non-primitive types.
 
+
+###################################################################################################################################################################################################
 
 Function :
 TypeScript supports various ways to define and use functions, each suitable for different scenarios. These include:
@@ -41,3 +62,34 @@ Function Overloading: Multiple function signatures for different parameter types
 Function Types: Explicitly typing functions and their parameters.
 Methods: Defining functions within objects and classes.
 Higher-Order Functions: Functions that operate on other functions
+
+
+
+###################################################################################################################################################################################################
+
+Class And Objects:
+
+A class is a blueprint for creating objects. It can contain properties and methods.
+
+
+Access Modifiers
+TypeScript supports access modifiers to control the visibility of class members. These are public, private, and protected.
+
+Public: Members are accessible from anywhere. This is the default.
+Private: Members are only accessible within the class.
+Protected: Members are accessible within the class and subclasses.
+
+Classes in TypeScript provide a structured way to create objects with properties and methods. Key concepts include:
+
+Class Declaration: Defining a class with properties and methods.
+Access Modifiers: Controlling visibility with public, private, and protected.
+Inheritance: Creating subclasses that inherit properties and methods from a parent class.
+Method Overriding: Subclasses can override parent class methods.
+Abstract Classes: Defining base classes that cannot be instantiated and may include abstract methods.
+Static Members: Defining class-level properties and methods.
+Getters and Setters: Creating methods that act like properties.
+By understanding these concepts, you can write more organized, reusable, and maintainable code in TypeScript.
+
+
+###################################################################################################################################################################################################
+

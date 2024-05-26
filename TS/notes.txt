@@ -26,3 +26,18 @@ Run the compiled JavaScript file:
 Type Scripts basics:
 
 2 : Basic Types
+
+
+
+Function :
+TypeScript supports various ways to define and use functions, each suitable for different scenarios. These include:
+
+Function Declarations: Named functions defined using the function keyword.
+Function Expressions: Anonymous functions assigned to variables.
+Arrow Functions: Concise syntax, especially useful for inline functions.
+Optional and Default Parameters: Making parameters optional or giving them default values.
+Rest Parameters: Handling an indefinite number of arguments.
+Function Overloading: Multiple function signatures for different parameter types.
+Function Types: Explicitly typing functions and their parameters.
+Methods: Defining functions within objects and classes.
+Higher-Order Functions: Functions that operate on other functions
